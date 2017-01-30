@@ -1,0 +1,17 @@
+#aID {
+    color: aqua;
+}
+#bID {
+    color: darkmagenta;
+    
+}
+#cID {
+    color: chartreuse
+}
+.gClass {
+   color: green;
+    font-size: 10px ;
+   border:2px black solid ;
+    background-color: red;
+    
+}

@@ -1,0 +1,41 @@
+.yallow {
+    background-color: yellow;
+    width:100%;
+    height: 30%; 
+    color: red;
+    font-size: 100px;
+    
+    
+}
+.red {
+    background-color:red;
+    width:100%;
+    height: 50%;
+    
+}
+.white {
+     background-color: white;
+    width:100%;
+    height: 50%;
+    font-size: 50px;
+    text-align: center;
+    color:red;
+    font-family: fantasy;
+}
+.yallow1{
+     background-color: yellow ;
+    width:100%;
+    height: 10%;
+}
+body {
+  font-family: 'Kumar One', cursive;
+}
+.a {
+   padding-left: 35%;
+
+}
+.b{
+    padding-left: 95%;
+    padding-top: 20px;
+    height: 50px;
+}

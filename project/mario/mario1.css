@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+}
+body {
+    background-color: black;
+  margin:5%;
+    margin-left: 5%;
+}
+.a {
+    display: inline-block;
+}
+.box {
+  font-size: 16px;
+  
+  float: left;
+  transition: color 0.25s ease-out;
+}
+.box:hover {
+  border-radius: 40%;
+  color: indianred;
+}
+input{
+    color: black;
+}
+.b{
+    float: right;
+}
+.aa{
+   text-align:right;
+}
+B{
+    color: cadetblue;
+  padding-left:350px;
+}

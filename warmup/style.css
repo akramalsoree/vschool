@@ -1,0 +1,10 @@
+.aclass { 
+    color:black;
+    margin: 30px;
+    font-size: 40px;
+    border:5px pink solid ;
+}
+#aID {
+ color: white;
+    font-size: 40px;
+}

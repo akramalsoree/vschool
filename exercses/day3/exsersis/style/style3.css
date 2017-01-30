@@ -1,0 +1,9 @@
+.aclass { 
+    color:aqua;
+    margin: 30px;
+    font-size: 40px;
+    border: 20px pink solid ;
+}
+#aID {
+    color: brown;
+}

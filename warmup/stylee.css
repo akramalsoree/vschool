@@ -1,0 +1,43 @@
+.aclass { 
+    background-color: black;
+   text-align: center;
+    margin: 30px;
+  
+   
+}
+#aID {
+ display:inline;
+    color: white;
+padding: 25px;
+    font-size: 30px;
+    cursor: pointer;
+   
+    
+    
+}
+.cClass {
+   text-align: center;
+    font-size: 60px;
+    padding: 40px;
+    
+}
+#bId{
+    color: white;
+   
+    font-size: 20px;
+    
+}
+.dClass {
+    background-color: white;
+   text-align: center;
+    margin: 50px;
+    
+    padding-top: 750px;
+    
+}
+.fclass{
+    background-color: black;
+   text-align: center;
+    margin: 50px;
+    
+}
