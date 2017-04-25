@@ -1,0 +1,705 @@
+* {
+    box-sizing: border-box;
+}
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
+/* CSS Document */
+
+* {
+	margin: 0px;
+	}
+body {
+  background-color: #435458;
+}
+/*Nav*/
+#fspacer {
+  height:7px;
+  width: 100%;
+  background-color:#000;
+  display: block;
+}
+#tspacer {
+  height:4px;
+  width:100%;
+  background-color: #523633;
+  display:block;
+}
+#navbar {
+	height: 60px;
+	width: 100%;
+	font-family: 'Josefin Sans', 'sans-serif';
+  Font-size: 30px;
+  background-color:#131313;
+	}
+#navbar ul {
+	display: inline-block;
+	float: right;
+  background-color: #131313;
+	}
+#navbar ul li {
+	display: inline-block;
+  padding-right: 5px;
+	height:100%;
+	width: 100px;
+	color: black;
+	float: left;
+	line-height: 60px;
+	list-style-type: none;
+	text-align: center;
+  position: relative;
+  transition: background .8s ease-in, color .6s linear, width .5s ease-in .2s;
+}
+	
+#menuitem:hover {
+	Background-color:#131313 ;
+	color: #000;
+  width: 200px;
+    font-size: 10px;
+	}
+/*Title*/
+#spacer {
+  width: 410px;
+  height: 2px;
+  background-color: #000;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+}
+
+h1 {
+  font-size: 72px;
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+  font-family: 'Josefin Sans', 'sans-serif';
+  font-weight: 200;
+}
+
+#titleArea {
+  padding: 40px;
+  
+}
+
+/*body*/
+
+#container1 {
+  width: 100%;
+  height: 400px;
+  background-color:#131313;
+  display: block;
+
+}
+#pagespace1 {
+  width: 100%;
+  height: 30px;
+  background-color: #85785A;
+  display: block;
+}
+#pagespace2 {
+  width: 100%;
+  height: 30px;
+  background-color: #9A8F77;
+  display: block;
+}
+#container2 {
+  Width: 100%;
+  height: 400px;
+  background-color: #131313;
+  display: block;
+}
+/*columns*/
+#c-half {
+  width: 50%;
+  height: 90%;
+  display: inline-block;
+  float: left;
+  /*background-color: #000;*/
+}
+#vspacer {
+  height: 100%;
+  width: 2px;
+  background-color: #111;
+  display: inline-block;
+  float: none;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+#c-vhalf {
+  height: 90%;
+  width: 49%;
+  display: inline-block;
+  margin-top:0 ;
+  float: right;
+  position: relative;
+}
+#c-vhalfp1 {
+  height: 50%;
+  width: 100%;
+  display: inline-block;
+  position: relative;
+ /* background-color: #000;*/
+  
+}
+#c-vhalfp2 {
+  height: 50%;
+  width: 100%;
+  display: inline-block;
+ /* background-color: #000;*/
+  position: relative;
+  
+}
+#thirds {
+  height: 100%;
+  width: 100%;
+  display: block;
+  
+}
+
+#thirdscolumn {
+  height: 100%;
+  width: 33.333%;
+  display: inline;
+ /* border: 1px dashed #000; */
+  position: ;
+ /* background-color: #000;*/
+  margin-left: 0px;
+  float: left;
+  clear: right;
+  
+}
+/*
+==============================================
+pullDown
+==============================================
+*/
+/*
+.pullDown{
+	animation-name: pullDown;
+	-webkit-animation-name: pullDown;	
+
+	animation-duration: .8s;	
+	-webkit-animation-duration: .8s;
+
+	animation-timing-function: linear;	
+	-webkit-animation-timing-function: linear;	
+
+	transform-origin: 50% 0%;
+	-ms-transform-origin: 50% 0%;
+	-webkit-transform-origin: 50% 0%; 		
+}
+
+@keyframes pullDown {
+	0% {
+		transform: scaleY(0.1);
+	}
+	40% {
+		transform: scaleY(1.02);
+	}
+	60% {
+		transform: scaleY(0.98);
+	}
+	80% {
+		transform: scaleY(1.01);
+	}
+	100% {
+		transform: scaleY(0.98);
+	}				
+	80% {
+		transform: scaleY(1.01);
+	}
+	100% {
+		transform: scaleY(1);
+	}							
+}
+*/
+/**@-webkit-keyframes pullDown {
+	0% {
+		-webkit-transform: scaleY(0.1);
+	}
+	40% {
+		-webkit-transform: scaleY(1.02);
+	}
+	60% {
+		-webkit-transform: scaleY(0.98);
+	}
+	80% {
+		-webkit-transform: scaleY(1.01);
+	}
+	100% {
+		-webkit-transform: scaleY(0.98);
+	}				
+	80% {
+		-webkit-transform: scaleY(1.01);
+	}
+	100% {
+		-webkit-transform: scaleY(1);
+	}		
+}**/
+
+body{
+    background-image: url(images/bgimg.png) ;
+    background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+	width: 100%;
+	height: 100%;
+
+}
+
+
+
+/* model css*/
+/*
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+*/
+
+/* Set a style for all buttons */
+button {
+    background-color: #337ab7;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+.btnFav{
+       
+       float: right;
+      right: -20px;
+    margin-right: 80px !important;
+    margin-top: -1px !important;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  width: 140px;
+    height: 60px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.btnFav span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btnFav span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btnFav:hover span {
+  padding-right: 25px;
+}
+
+.btnFav:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+    
+      
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #337ab7;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+    width: 100%;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+
+.input-group{
+	  z-index: 0;
+    
+}
+
+
+.input-group-input{
+    margin: -5px;
+}
+
+
+hr{
+	border-top-width: 3px;
+}
+
+footer{
+	background-color: #131313;
+	  padding: 5px 0;
+	 font-size: 1.4rem;
+	 padding: 10px 0;
+/*
+	bottom: 0;
+    left: 0;
+	height: 200px;
+    position: fixed;
+    width: 100%;
+*/
+}
+
+.navbar-default{
+	background-color: #131313 !important;
+	color: white !important;
+	border-color: #131313 !important;
+}
+
+
+.footer a {
+    color: white;
+    font-size: 3.4rem;
+    padding: 10px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+	  position: relative;
+  margin-top: -180px; /* negative value of footer height */
+  height: 180px;
+  clear: both;
+
+}
+
+
+
+.footer a:hover {
+    color: #70726F;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+
+}
+
+
+
+.header{
+	background-color: #131313;
+	  padding: 5px 0;
+	 font-size: 1rem;
+	 padding: 10px 0;
+	
+}
+
+.header a {
+    color: #70726F;
+    font-size: 2rem;
+    padding: 10px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+
+
+.header a:hover {
+    color: white !important;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.navbar-default .navbar-nav>.active>a{
+	background-color: #131313;
+	color: #fff;
+}
+
+
+#navbar {
+	height: 60px;
+	width: 100%;
+	font-family: 'Josefin Sans', 'sans-serif';
+  Font-size: 2px;
+  background-color: #131313;
+	}
+#navbar ul {
+	display: inline-block;
+	float: left;
+  background-color:#131313;
+	}
+#navbar ul li {
+	display: inline-block;
+  padding-right: 5px;
+	height:100%;
+	width: 100px;
+	color: black;
+	float: left;
+	line-height: 60px;
+	list-style-type: none;
+	text-align: center;
+  position: relative;
+  transition: background .8s ease-in, color .6s linear, width .5s ease-in .2s;
+}
+
+
+/* slider imges style*/
+
+.fade-carousel {
+    position: relative;
+    height: 50vh;
+}
+.fade-carousel .carousel-inner .item {
+    height: 50vh;
+}
+.fade-carousel .carousel-indicators > li {
+    margin: 0 2px;
+    background-color: #f39c12;
+    border-color: #f39c12;
+    opacity: .7;
+}
+.fade-carousel .carousel-indicators > li.active {
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+
+/********************************/
+/*          Hero Headers        */
+/********************************/
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+      -webkit-transform: translate3d(-50%,-50%,0);
+         -moz-transform: translate3d(-50%,-50%,0);
+          -ms-transform: translate3d(-50%,-50%,0);
+           -o-transform: translate3d(-50%,-50%,0);
+              transform: translate3d(-50%,-50%,0);
+}
+.hero h1 {
+    font-size: 6em;    
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.fade-carousel .carousel-inner .item .hero {
+    opacity: 0;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s; 
+}
+.fade-carousel .carousel-inner .item.active .hero {
+    opacity: 1;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s;    
+}
+
+/********************************/
+/*            Overlay           */
+/********************************/
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+ 
+    opacity: .7;
+}
+
+/********************************/
+/*          Custom Buttons      */
+/********************************/
+
+
+
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+.fade-carousel .slides .slide-1, 
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3 {
+  height: 50vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.fade-carousel .slides .slide-1 {
+  background-image: url(images/cars/newCar/PNGPIX-COM-Blue-Ferrari-488-Spider-Car-PNG-Image.png) ;
+}
+.fade-carousel .slides .slide-2 {
+  background-image: url(images/cars/classicCar/classic1.png);
+}
+.fade-carousel .slides .slide-3 {
+  background-image: url(images/cars/bigCar/bigcar.png);
+}
+
+/********************************/
+/*          Media Queries       */
+/********************************/
+@media screen and (min-width: 980px){
+    .hero { width: 980px; }    
+}
+@media screen and (max-width: 640px){
+    .hero h1 { font-size: 4em; }    
+}
+
+.imgSize{
+	width:100%;
+	height:300px;
+	margin: 0;
+}
+
+.card {
+    transition: 0.3s;
+    width: 100%;
+	height: 100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+	margin: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card a {
+    color: #70726F;
+    font-size: 3rem;
+    padding: 10px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+
+.card a:hover {
+    color: red!important;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+
+.container {
+    padding: 2px 2px;
+}
+
+img{
+	margin: 5px;
+}
+
+
+
+.favButton{
+    color: red;
+    font-size: 2.4rem;
+    display: inline;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    position: relative;
+    float: right;
+   
+  
+   
+}
+
+
+
+
